@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Evdokimova Natalia](https://up.htmlacademy.ru/htmlcss/27/user/1280871).
-* Наставник: [Геннадий Максимов] (https://htmlacademy.ru/profile/gennadiy).
+* Наставник: [Геннадий Максимов](https://htmlacademy.ru/profile/gennadiy).
 
 ---
 
