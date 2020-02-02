@@ -12,7 +12,7 @@ body {
   width: 1200px;
   height: 773px;
 
-  background: url("img/welcome.png") no-repeat 370px 132px,
-    url("img/polygon.png") no-repeat 0px 717px,
-    url("img/background photo.png") no-repeat 0px 0px;
+  background: url("img\welcome.png") no-repeat 370px 132px,
+    url("img\polygon.svg") no-repeat 0px 717px,
+    url("img\backgroundlanding.jpg") no-repeat 0px 0px;
 }
