@@ -2,139 +2,176 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-     <link rel="stylesheet" href="css\style.css">
+     <link rel="stylesheet" href="css/style.css">
     <title>HTML Academy: Седона</title>
   </head>
   <body>
-    <header>
-        <nav>
+    <header class="page-header">
+        <nav class="main-nav">
             <a>
-                <img src="img\logo.svg" alt="Sedona Logo" width="140px" height="71px" object-fit="contain" >
+                <img src="img/logo.svg" alt="Sedona Logo" width="140" height="71" >
             </a>
-          <li><a href="#info">Информация</a></li>
-          <li><a href="#FotoVideo">Фото и Видео</a></li>
-          <li><a href="#map">Карта Штата</a></li>
-          <li><a href="catalog.html">Гостинницы</a></li>
+            <ul class="main-nav-list">
+              <li class="main-nav-item"><a href="#">Информация</a></li>
+              <li class="main-nav-item"><a href="#">Фото и Видео</a></li>
+              <li class="main-nav-item"><a href="#">Карта Штата</a></li>
+              <li class="main-nav-item"><a href="catalog.html">Гостинницы</a></li>
+            </ul>
         </nav>
 
       </header>
       <main>
-          <div calss="welcome">
-              <!--
-                <img src="img/welcome.png" alt="background welcome" width="459px" height="353px" object-fit="contain" >
-                <img src="img/polygon.png" alt="background polygon mask" width="1200px" height="59px" object-fit="contain" >
-                <img src="img/background photo.png" alt="Sedona Background" width="1200px" height="800px" object-fit="contain" >
-              -->
+        <h1 class="visually-hidden">Визитка штата Седона</h1>
+          <div class="welcome">
+
           </div>
-          <h1>Седона — небольшой городок в Аризоне,<br> заслуживающий большего!</h1>
-            <h2>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</h2>
+          <section class="advantages">
+            <h2 class="visually-hidden"> Преимущества штата Седона</h2>
+              <p class="advantages-title">Седона — небольшой городок в Аризоне,<br> заслуживающий большего!</p>
+              <p class="advantages-info">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
 
 
-              <div>
-                  <img src="img\hotellanding.jpg" alt="True town" width="800px" height="256px" object-fit="contain">
-               </div>
-               <section>
-               <span>
-
-  </span>
-                  <ol>
-                      <li><h3>Настоящий <br> городок  </h3>
+                  <ol class="advantages-list">
+                    <li class="advantages-list-item">
+                      <div class="card-big">
+                                    <div>
+                                        <img src="img/hotellanding.jpg" alt="True town" width="800" height="256">
+                                     </div>
+                        <h3>Настоящий городок  </h3>
                                 <p> — №1 —</p>
                                 <p>  Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-                          <ul>
-                            <li>
-                              <img src="img\icon-1.svg" alt="Hotel" width="75px" height="72px" object-fit="contain">
-                              Жилье
-                              <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+                              </div>
+
+                          <ul class="advantages-sublist">
+                            <li class="advantages-sublist-item">
+                                <div class="card">
+                              <img src="img/icon-1.svg"  alt="" width="75" height="72">
+                              <p>Жилье</p>
+                              <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p></div>
                             </li>
-                            <li>
-                              <img src="img\icon-3.svg" alt="Hotel" width="75px" height="72px" object-fit="contain">
-                              Еда <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p></li>
-                            <li>
-                              <img src="img\icon-2.svg" alt="Hotel" width="75px" height="72px" object-fit="contain">
-                              Сувениры <p>Не только китайского, но и местного производства!</p></li>
+
+                            <li class="advantages-sublist-item">
+                                <div class="card">
+                              <img src="img/icon-3.svg" alt=""  width="75" height="72">
+                              <p>Еда</p> <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p> </div></li>
+
+                            <li class="advantages-sublist-item">  <div class="card">
+                              <img src="img/icon-2.svg" alt="" width="75" height="72">
+                              <p>Сувениры</p> <p>Не только китайского, но и местного производства!</p></div></li>
                           </ul>
                         </li>
-                        <li>
+                        <li class="advantages-sublist-item">
+                              <div class="card-big">
                           <h3>Там есть<br>Мост дьявола</h3>
                             <p> — №2 —</p>
-                            <img src="img\moutainslanding.jpg" alt="DEvil's bridge" width="800px" height="256px" object-fit="contain">
-                              <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+                            <img src="img/moutainslanding.jpg" alt="DEvil's bridge" width="800" height="256">
+                              <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p></div>
                         </li>
-                        <li>
-                            <h3>Небольшая<br> площадь</h3>
+                        <li class="advantages-sublist-item">  <div class="card">
+                            <h3>Небольшая площадь</h3>
                               <p> — №3 —</p>
 
-                                    <p>Все достопримечательности находятся очень близко</p>
+                                    <p>Все достопримечательности находятся очень близко</p></div>
                         </li>
 
-                         <li>
+                         <li class="advantages-sublist-item">  <div class="card">
                             <h3>Красивая<br> дорога</h3>
                               <p> — №4 —</p>
 
-                                <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+                                <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p></div>
                          </li>
-                         <li>
+                         <li class="advantages-sublist-item">  <div class="card">
                             <h3>Мало<br> туристов</h3>
                               <p> — №5 —</p>
 
-                                <p>Большинство едет в гранд каньон и толпится там</p>
+                                <p>Большинство едет в гранд каньон и толпится там</p></div>
                          </li>
                     </ol>
                   </section>
-                  <section>
+                  <section >
+                    <h2 class="visually-hidden">Бронирование и карта</h2>
                     <h2>Поиск гостинницы В Cедоне</h2>
                     <p>Зайнтересовались?</p>
                     <p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
 
-                  </section>
-                  <section>
-                    <h2>Форма поиска гостинницы</h2>
-                    <form class="booking" name="Поиск гостинницы в Cедоне" method="post">
+                    <button type="button">Форма поиска гостинницы</button>
+
+                    <div>
+                    <form class="booking" id="booking" name="Поиск гостинницы в Cедоне" method="post">
+                      <p>
                       <label>
-                        Дата заезда <input type="text" name="Дата заезда" placeholder="24 апреля 2017">
+                        Дата заезда <input type="text" name="Дата заезда" placeholder="24 апреля 2017">  <svg xmlns="http://www.w3.org/2000/svg" width="21" height="22" viewBox="0 0 21 22"><path d="M19.251 2.025h-2.845V.648c0-.381-.294-.689-.656-.689-.363 0-.656.308-.656.689v1.377h-3.938V.648c0-.381-.294-.689-.655-.689-.363 0-.657.308-.657.689v1.377H5.906V.648c0-.381-.294-.689-.656-.689-.363 0-.657.308-.657.689v1.377H1.75C.784 2.025 0 2.847 0 3.862v16.302C0 21.179.784 22 1.75 22h17.501c.966 0 1.749-.821 1.749-1.836V3.862c0-1.015-.783-1.837-1.749-1.837zm.437 18.139a.448.448 0 0 1-.437.459H1.75a.45.45 0 0 1-.438-.459V3.862a.45.45 0 0 1 .438-.459h2.844v1.378c0 .381.294.689.657.689.362 0 .656-.308.656-.689V3.403h3.938v1.378c0 .381.294.689.657.689.361 0 .655-.308.655-.689V3.403h3.938v1.378c0 .381.293.689.656.689.362 0 .656-.308.656-.689V3.403h2.845c.241 0 .437.206.437.459v16.302z"/><path d="M4.594 8.225h2.625v2.066H4.594zM4.594 11.668h2.625v2.067H4.594zM4.594 15.112h2.625v2.066H4.594zM9.188 15.112h2.625v2.066H9.188zM9.188 11.668h2.625v2.067H9.188zM9.188 8.225h2.625v2.066H9.188zM13.781 15.112h2.625v2.066h-2.625zM13.781 11.668h2.625v2.067h-2.625zM13.781 8.225h2.625v2.066h-2.625z"/></svg>
                       </label>
+                    </P>
+                    <p>
                       <label>
-                        Дата выезда <input type="text" name="Дата выезда" placeholder="4 июля 2017">
+                        Дата выезда <input type="text" name="Дата выезда" placeholder="4 июля 2017"> <svg xmlns="http://www.w3.org/2000/svg" width="21" height="22" viewBox="0 0 21 22"><path d="M19.251 2.025h-2.845V.648c0-.381-.294-.689-.656-.689-.363 0-.656.308-.656.689v1.377h-3.938V.648c0-.381-.294-.689-.655-.689-.363 0-.657.308-.657.689v1.377H5.906V.648c0-.381-.294-.689-.656-.689-.363 0-.657.308-.657.689v1.377H1.75C.784 2.025 0 2.847 0 3.862v16.302C0 21.179.784 22 1.75 22h17.501c.966 0 1.749-.821 1.749-1.836V3.862c0-1.015-.783-1.837-1.749-1.837zm.437 18.139a.448.448 0 0 1-.437.459H1.75a.45.45 0 0 1-.438-.459V3.862a.45.45 0 0 1 .438-.459h2.844v1.378c0 .381.294.689.657.689.362 0 .656-.308.656-.689V3.403h3.938v1.378c0 .381.294.689.657.689.361 0 .655-.308.655-.689V3.403h3.938v1.378c0 .381.293.689.656.689.362 0 .656-.308.656-.689V3.403h2.845c.241 0 .437.206.437.459v16.302z"/><path d="M4.594 8.225h2.625v2.066H4.594zM4.594 11.668h2.625v2.067H4.594zM4.594 15.112h2.625v2.066H4.594zM9.188 15.112h2.625v2.066H9.188zM9.188 11.668h2.625v2.067H9.188zM9.188 8.225h2.625v2.066H9.188zM13.781 15.112h2.625v2.066h-2.625zM13.781 11.668h2.625v2.067h-2.625zM13.781 8.225h2.625v2.066h-2.625z"/></svg>
                       </label>
+                    </p>
+                    <p>
                       <label>
-                        Взрослые <input type="text" name="Взрослые" placeholder="2">
+                        Взрослые
+                        <svg width="21" height="22" xmlns="http://www.w3.org/2000/svg">
+    <line stroke="#000" id="svg_min1" y2="11" x2="16.148148" y1="11" x1="4.851852" stroke-width="1.5" fill="none"/>
+  </svg>
+                        <input type="text" name="Взрослые" placeholder="2">
+                        <svg width="21" height="22" xmlns="http://www.w3.org/2000/svg">
+  <line stroke="#000"  id="svg_pl1" y2="11" x2="16.148148" y1="11" x1="4.851852" stroke-width="1.5" fill="none"/>
+  <line stroke="#000"  id="svg_pl2" y2="16.685185" x2="10.685176" y1="5.314815" x1="10.685176" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" fill="none"/>
+</svg>
                       </label>
+                    </p>
+                    <p>
                       <label>
-                        Дети <input type="text" name="Дети" placeholder="0">
+                        Дети <svg width="21" height="22" xmlns="http://www.w3.org/2000/svg">
+    <line stroke="#000"  id="svg_min2" y2="11" x2="16.148148" y1="11" x1="4.851852" stroke-width="1.5" fill="none"/>
+  </svg><input type="text" name="Дети" placeholder="0">
+  <svg width="21" height="22" xmlns="http://www.w3.org/2000/svg">
+  <line stroke="#000"  id="svg_pl3" y2="11" x2="16.148148" y1="11" x1="4.851852" stroke-width="1.5" fill="none"/>
+  <line stroke="#000"  id="svg_pl4" y2="16.685185" x2="10.685176" y1="5.314815" x1="10.685176" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" fill="none"/>
+</svg>
                       </label>
-                      <input type="submit" name="Найти">
+                    </p>
+                      <input  class="button-style" style="width: 458px;
+  height: 58px;" type="submit" name="Найти" value="Найти">
                     </form>
-                    <!-- Форма
-                    <p>ПОИСК ГОСТИНИЦЫ В Cедоне</p>
-                    <p>Дата заезда</p>
-                  <p>Дата выезда</p>
-                  <p>Взрослые</p>
-                  <p>Дети</p>
-                  <button type="button">Найти</button>
-                    -->
+</div>
+
                   </section>
                   <section>
                     <h2> Карта</h2>
-                    <img src="img\map.jpg" alt="Карта. Седона Аризона 86336 США" width="1200px" height="593px" object-fit="contain">
+                    <img src="img/map.jpg" alt="Карта. Седона Аризона 86336 США" width="1200" height="593">
                   </section>
 
       </main>
-      <footer>
+      <footer class="page-footer">
+        <div class="page-footer-tel">
         <p>#visitSEDONA</p>
-        <p>Тел: +7(495) 666-02-66</p>
-         <div>
+        <a href="#">Тел: +7(495) 666-02-66</a>
+        </div>
+         <div class="page-footer-social">
            <p>Мы в соцсетях</p>
            <ul>
-              <a href="#"><img src="img\twitter.svg" alt="Twitter" width="46px" height="48px">Twitter</a>
-              <a href="#"><img src="img\fb-icon.svg" alt="Facebook" width="46px" height="48px">Facebook</a>
-              <a href="#"><img src="img\youtube.svg" alt="Youtube" width="46px" height="48px">Youtube</a>
+              <li class="social-item"><a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="15" viewBox="0 0 17 15"><path fill="#FFF" d="M10.95.144c1.685-.496 2.984.27 3.577 1.179.673-.231 1.331-.481 2.011-.708a2.345 2.345 0 0 1-.857 1.768c.685.17 1.304-.491 1.304-.491-.169 1-1.006 1.788-1.563 2.024-.231 6.75-3.175 11.217-10.077 11.082h-.446c-.41 0-4.164-.46-4.898-1.887 2.271.196 3.893-.422 4.693-1.177-.96-.3-2.679-.477-2.979-2.95.349.106.564.228 1.19.119C1.705 8.247.374 7.53.448 5.33c.285.328 1.067.536 1.34.472C1.085 5.561-.182 2.442.894.85c1.818 1.854 3.735 3.606 7.152 3.773C8.254 2.33 9.183.793 10.95.144z"/></svg>
+ Twitter</a></li>
+              <li class="social-item"><a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="22" viewBox="0 0 12 22"><path fill="#FFF" d="M12 4V0H8a4 4 0 0 0-4 4v4H0v4h4v10h4V12h4V8H8V4h4z"/></svg>
+                Facebook</a></li>
+              <li class="social-item"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="16" viewBox="0 0 20 16"><path fill="#FFF" d="M17 0H3C1.35 0 0 1.35 0 3v10c0 1.65 1.35 3 3 3h14c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3zM6.027 11.998V4.002L15.014 8l-8.987 3.998z"/></svg>
+Youtube</a></li>
            </ul>
          </div>
+         <div class="page-footer-htmlacademy">
          <p>
-            Website by:
-            <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img\logo-htmlacademy.svg" alt="HTML Academy" width="115px" height="41px"></a>
+            Website by:</p>
+            <p>
+            <a href="https://htmlacademy.ru/intensive/htmlcss">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="115" height="41" viewBox="0 0 115 41">
+                <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHMAAAApCAMAAAAxiOZFAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAC01BMVEUAAAAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAAAAA5I8N8AAAA73RSTlMADChFX3p3Wz8kCBUwS2iDnrnX8evQtZh8YQ1y+frfxKivyuf+OKXwWgFph4Dzu6CFTTIXBR05VXGLw0CwYIrg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" width="115" height="41"/>
+              </svg>
+</a>
           </p>
+        </div>
       </footer>
 
   </body>

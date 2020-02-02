@@ -8,14 +8,45 @@ body {
   width: 1200px;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+.button-style {
+    display: inline-block;
+    padding:7px;
+    text-align: center;
+    font-family: "PTSans", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: bold;
+    font-stretch: normal;
+    text-decoration: none;
+    background: #81b3d2;
+    border-radius: 5px;
+    border: 1px solid ;
+    color: white;
+   }
+
+/*
 .welcome {
   width: 1200px;
   height: 773px;
 
-  background: url("img\welcome.png") no-repeat 370px 132px,
-    url("img\polygon.svg") no-repeat 0px 717px,
-    url("img\backgroundlanding.jpg") no-repeat 0px 0px;
+  background:
+    url("img/welcome.svg") no-repeat 370px 132px,
+    url("img/polygon.svg") no-repeat 0px 717px,
+    url("img/backgroundlanding.jpg") no-repeat 0px 0px;
 }
+
 .productRate {
 background: url("img\star.svg");
 width:150px height: 17px;
@@ -25,3 +56,4 @@ background: url("img\star.svg");
 width: 0;
 height: 100%;
 }
+*/
