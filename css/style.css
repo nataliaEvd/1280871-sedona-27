@@ -16,3 +16,12 @@ body {
     url("img\polygon.svg") no-repeat 0px 717px,
     url("img\backgroundlanding.jpg") no-repeat 0px 0px;
 }
+.productRate {
+background: url("img\star.svg");
+width:150px height: 17px;
+}
+.productRate div {
+background: url("img\star.svg");
+width: 0;
+height: 100%;
+}
